@@ -8,7 +8,7 @@
     />
 
     <title>My slides - maybe?</title>
-
+    <link rel="stylesheet" href="/accessibility/helper.css">
     <link rel="stylesheet" href="reveal.js/dist/reset.css" />
     <link rel="stylesheet" href="reveal.js/dist/reveal.css" />
     <link rel="stylesheet" href="reveal.js/dist/theme/serif.css" id="theme" />
@@ -57,7 +57,12 @@
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
-
+        //Dependencies are from Marcy Sutton's accessibility helper.
+        dependencies: [
+                { src: '/accessibility/helper.js', async: true, condition: function() { 
+                	return !!document.body.classList; 
+                } 
+            }]
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom],
       });
