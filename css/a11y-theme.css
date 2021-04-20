@@ -298,3 +298,18 @@ background-color: #006EAE}
 @media print {
   .backgrounds {
     background-color: #F0F1EB; } }
+
+/*********************************************
+* NIC ADDED STYLES
+********************************************/
+
+.sr-only  { 
+  border:0 none;
+  clip:rect(0px,0px,0px,0px);
+  height:1px;
+  margin:-1px;
+  overflow:hidden;
+  padding:0;
+  position:absolute;
+  width:1px
+}
