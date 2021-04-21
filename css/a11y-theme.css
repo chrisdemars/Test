@@ -313,3 +313,9 @@ background-color: #006EAE}
   position:absolute;
   width:1px
 }
+
+.img-bg {
+  width: 100%;
+  background-color: rgb(0.90,0.97,1.00);
+  padding: 1em;
+}
