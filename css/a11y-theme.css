@@ -315,8 +315,7 @@ background-color: #006EAE}
 }
 
 h2.img-bg {
-  width: 100%;
+  width: 150%;
   background-color: rgb(117,117,117,0.8);
-  margin: 0 -2em;
-  color: #ff0000;
+  color: #000000;
 }
