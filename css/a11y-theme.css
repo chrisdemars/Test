@@ -319,3 +319,7 @@ background-color: #153a7e}
   color: #000000;
   border-radius: 20px;
 }
+
+.right {
+  text-align:right;
+}
