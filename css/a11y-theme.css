@@ -324,6 +324,10 @@ background-color: #153a7e}
   text-align:right;
 }
 
+.left {
+  text-align:left;
+}
+
 .top {
   position:relative;
   top: 75%;
